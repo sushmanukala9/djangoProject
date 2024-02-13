@@ -1,0 +1,19 @@
+{% extends "personal/header.html" %}
+{% block content %}
+ <!--<p>	hey welcome to my website i am a programmer </p>-->
+ <!--<div class = "container">
+	<h1> Start your prediction </h1>
+	<form method = "post">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button type="submit">Submit</button>
+	</form>
+
+ {% include "personal/includes/htmlsnippet.html" %}-->
+ <form action="/train2/"  method="post" enctype="multipart/form-data">{% csrf_token %}
+
+    <input type="file" name="csv_file" />
+    <input type="submit" value="Upload" />
+
+</form>
+ {% endblock %} 

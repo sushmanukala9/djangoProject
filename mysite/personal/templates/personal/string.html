@@ -1,0 +1,15 @@
+{% extends "personal/header.html" %}
+ 
+{% block content %}
+  
+   {% for c in content %}
+
+    {{c}}
+    <br>
+     {% endfor %}
+<form action='/predict/'><input type="submit" value = "Predict"></form>
+<form action='/train/'><input type="submit" value= "train new data"></form>
+ 
+		
+
+ {% endblock %} 

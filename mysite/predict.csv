@@ -1,0 +1,2 @@
+Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,City,State,Country,Postal Code,Market,Region,cat-id,sub-id,Product ID,Category,Sub-Category,Product Name,Quantity,Discount,Profit,Shipping Cost,Order Priority
+42433,AG-2011-2040,01-01-2011,06-01-2011,Standard Class,TB-11280,Toby Braunhardt,Consumer,Constantine,Constantine,Algeria,,Africa,Africa,OFF,TEN,10000025,Office Supplies,Storage,"Tenex Lockers, Blue",2,0,106.14,35.46,Medium

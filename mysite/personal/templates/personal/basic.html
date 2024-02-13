@@ -1,0 +1,20 @@
+{% extends "personal/header.html" %}
+ 
+{% block content %}
+<script>
+function doSubmit(val){
+alert('inside submit: '+val);
+}
+</script>
+    <form action='/string/' method='post'> {% csrf_token %}  
+   {% for c in content %}
+
+   <input  type="checkbox" name="{{ c }}" value="{{ c }}"> {{c}} </input>
+   <hr/>
+     {% endfor %}
+
+ <input type='submit' value="submit" />
+ </form> 
+		
+
+ {% endblock %} 
