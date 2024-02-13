@@ -1,0 +1,2 @@
+# djangoProject
+sales data prediction 
